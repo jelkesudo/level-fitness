@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+$purple: rgb(197, 169, 264);
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+
+@font-face {
+    font-family: "level-fitness-italic";
+    src: url("../public/fonts/NTF-Grand-Italic.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "level-fitness-italic";
+    background-color: $purple;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
