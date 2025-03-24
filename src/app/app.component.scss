@@ -20,6 +20,7 @@
     font-size: 2.5rem;
     color: $white;
     letter-spacing: 0.1cm;
+    animation: showAndHide 2s ease-in-out infinite;
   }
   
   @media (max-width: 768px) {
@@ -34,4 +35,22 @@
       width: 90%; 
     }
     
+  }
+
+  @keyframes showAndHide {
+    25% {
+      opacity: 0%;
+    }
+
+    50% {
+      opacity: 100%;
+    }
+
+    75% {
+      opacity: 0%;
+    }
+
+    100% {
+      opacity: 100%;
+    }
   }
