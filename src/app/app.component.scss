@@ -1,3 +1,4 @@
+@import '../styles.scss';
 
 .logo-container {
     width: 100%;
@@ -15,9 +16,9 @@
   }
   
   .undertext {
-    margin-top: 10px;
-    font-size: 1.8rem;
-    color: #333;
+    margin-top: 30px;
+    font-size: 2rem;
+    color: $white;
     letter-spacing: 0.1cm;
   }
   
@@ -25,16 +26,12 @@
     .logo {
       width: 70%; 
     }
-    .undertext {
-      font-size: 1.5rem !important; 
-    }
+    
   }
   
   @media (max-width: 480px) {
     .logo {
       width: 90%; 
     }
-    .undertext {
-      font-size: 1rem !important; 
-    }
+    
   }
